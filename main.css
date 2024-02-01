@@ -387,141 +387,23 @@ span{
 /* =====================MEDIUM DEVICES===== */
 
 @media screen and (max-width: 1024px) {
-  /* Header Styles */
-  .navbar {
-    padding: 0px 20px;
+   .container{
+    margin-right: 4.5rem;
+  }
+  .column {
+    flex: 1;
+    flex: 50%;
+    padding: 0 0 0 4.5rem;
+    text-align: left;
   }
 
-  .navbar ul {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 90px;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    border-bottom: 1px solid lightgray;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .navbar ul.show {
-    display: flex;
-  }
-
-  .navbar ul li {
-    padding: 15px;
-  }
-
-  .navbar i.fa-bars,
-  .navbar i.fa-magnifying-glass {
-    display: block;
-  }
-
-  /* Navigation Styles */
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-
-  /* Video Section Styles */
-  .videobg h2 {
-    font-size: 20px;
-  }
-
-  .videobg button {
-    top: 85%;
-    padding: 10px 20px;
+  .cell {
+    font-family: jost_light;
+    color: black;
+    margin-bottom: 10px;
     font-size: 12px;
   }
-
-  /* Image Section Styles */
-  .imagebg h2,
-  .imagebg button {
-    top: 75%;
-    font-size: 20px;
-    padding: 10px 20px;
-  }
-
-  /* Services Section Styles */
-  .services h2 {
-    font-size: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  /* Grid Styles */
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 10px;
-    padding: 0 20px;
-  }
-
-  /* Card Styles */
-  .card-image {
-    height: 12rem;
-  }
-
-  .card-content h1 {
-    font-size: 1rem;
-  }
-
-  .card-content p {
-    font-size: 0.8rem;
-    margin-right: 1rem;
-  }
-
-  .card-btn {
-    font-size: 0.8rem;
-  }
-
-  /* Footer Styles */
-  .footer ul {
-    padding-right: 20px;
-  }
-
-  .footer ul li {
-    margin-left: 5px;
-    margin-right: 15px;
-  }
-
-  .footer .language,
-  .footer span {
-    display: none;
-  }
-
-  .last-logo {
-    font-size: 1.2em;
-  }
-
-  .mobile-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .accordian-container,
-  .hr-hid {
-    display: block;
-  }
-
-  /* Hide certain elements on small screens */
-  .desktop-only {
-    display: none;
-  }
-
-  /* Show certain elements only on small screens */
-  .mobile-only {
-    display: block;
-  }
 }
-
-
 
 /* =====================SMALL DEVICES===== */
 
